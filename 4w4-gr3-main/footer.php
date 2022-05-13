@@ -1,4 +1,4 @@
-<footer class="site__footer">
+<footer class="site__footer" style="background-color:<?php echo get_theme_mod("couleur_background_footer") ?>;">
     <div class="site__footer__colonne">
         <section class="footer__article">
         <?php get_sidebar("footer_colonne_1");  ?>
@@ -21,7 +21,7 @@
          <?php get_sidebar("footer_ligne_1");  ?>
         </section>
         <section class="footer__auteur">
-            <p>Auteur : Eddy Martin</p>
+            <p>Auteur : Gabriel Richer</p>
         </section>
         <section class="footer__menu">
         <?php    
@@ -39,6 +39,17 @@
         </section>
     </div>
 </footer>
+<div class="boite__modale">
+    <button class="boite__modale__fermeture">x</button>
+    <article class="boite__modale__texte">
+        
+    </article>
+</div>
+<div class="boite__caroussel">
+    <button class="boite__caroussel__fermeture">x</button>
+    <section class="boite__caroussel__navigation"></section>
+    <section class="boite__caroussel__img"></section>
+</div>
 
 </body>
 <?php wp_footer(); ?>

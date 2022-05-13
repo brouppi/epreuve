@@ -40,6 +40,8 @@ COMPOSANTES
 @import "composantes/navigation";
 @import "composantes/navigation_accueil";
 @import "composantes/navigation_categorie_cours";
+@import "composantes/boite__modale";
+@import "composantes/galerie";
 /* ---------------------------------------------------- FOOTER */
 @import "composantes/footer";
 @import "composantes/single_cours";
@@ -49,4 +51,5 @@ COMPOSANTES
 ANIMATION
 --------------------------------------------------------- */
 @import "animation/entete";
+@import "animation/burger";
 
