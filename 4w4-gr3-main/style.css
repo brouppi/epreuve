@@ -385,7 +385,7 @@ theme name: Lab 2 Lemieux Florence
 
 .site__main {
   grid-area: main;
-  background-color: rgba(140, 140, 140, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .site__footer {
@@ -576,9 +576,13 @@ COMPOSANTES
 --------------------------------------------------------- */
 .site__main {
   padding: 10px 15px;
-  background-color: #8c8c8c;
+  background-color: black;
   border-radius: 5px;
   box-shadow: #39443e 1px -1px 10px;
+}
+
+.site__main p {
+  color: #ffcc00;
 }
 
 .formation {
@@ -862,7 +866,7 @@ COMPOSANTES
 }
 
 .menu-evenement-container .menu-item a {
-  color: #ffcc00;
+  color: #c09a00;
 }
 
 .menu-evenement-container .menu-item:hover {
@@ -870,7 +874,7 @@ COMPOSANTES
 }
 
 .menu-evenement-container .menu-item:hover a {
-  color: #c7b363;
+  color: #ffcc00;
 }
 
 .menu-atelier-container .menu-item {
@@ -879,7 +883,7 @@ COMPOSANTES
 }
 
 .menu-atelier-container .menu-item a {
-  color: #ffcc00;
+  color: #c09a00;
 }
 
 .menu-atelier-container .menu-item:hover {
@@ -890,7 +894,7 @@ COMPOSANTES
 }
 
 .menu-atelier-container .menu-item:hover a {
-  color: #c7b363;
+  color: #ffcc00;
 }
 
 .menu-categorie_cours-container .menu {
