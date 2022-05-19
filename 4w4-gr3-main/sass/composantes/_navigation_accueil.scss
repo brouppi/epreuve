@@ -1,4 +1,4 @@
-.menu-accueil-container, .menu-evenement-container { //nav
+.menu-accueil-container, .menu-evenement-container,.menu-atelier-container { //nav
 
     .menu { //ul
         display : flex;
@@ -17,9 +17,10 @@
         }
 
         .menu-item { //li
-            width : 15%;
+            width : 30%;
             height : 250px;
             padding : 10px;
+            border: 1px solid black;
            
             a {
                 display : flex;
@@ -81,6 +82,23 @@
 
 
 .menu-evenement-container {
+
+    .menu-item {
+        background-color: $couleur__carte__evenement__background ;
+        a{
+            color: $couleur__carte__evenement ;
+   
+        }
+    &:hover{
+        background-color: $couleur__carte__evenement__background--hover ;
+        a{
+            color: $couleur__carte__evenement--hover ;
+        }
+    }    
+    }
+
+}
+.menu-atelier-container {
 
     .menu-item {
         background-color: $couleur__carte__evenement__background ;

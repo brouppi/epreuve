@@ -39,6 +39,6 @@
         <div class="burger__ligne"></div>
         <div class="burger__ligne"></div>
     </label>
-    <?php wp_nav_menu(array("menu"=>"principal",
+    <?php wp_nav_menu(array("menu"=>"principale",
                             "container"=>"nav")); ?>
 </section>

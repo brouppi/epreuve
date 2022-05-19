@@ -7,13 +7,17 @@
 }
 
 #chk-burger:checked ~ #burger {
+    display: block;
+}
+.menu-principale-container {
+    display : none;
+    
     
 }
-.menu-principal-container {
-    display : none;
-}
-#chk-burger:checked ~ .menu-principal-container{
+#chk-burger:checked ~ .menu-principale-container{
     display : block;
+    
+    
 }
 
 
@@ -55,6 +59,10 @@
     }
 
 }
+
+
+
+
 
 
 

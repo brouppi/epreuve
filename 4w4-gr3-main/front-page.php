@@ -11,6 +11,11 @@
         wp_nav_menu(array("menu"=>"evenement",
                             "container"=>"nav"));
 ?>
+<h2>Les ateliers du TIM</h2>
+<?php 
+        wp_nav_menu(array("menu"=>"atelier",
+                            "container"=>"nav"));
+?>
 
     
    <?php if (have_posts()): the_post(); ?>
