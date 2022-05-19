@@ -113,15 +113,20 @@
 .menu-atelier-container {
 
     .menu-item {
+        transform: scale(1);
         background-color: $couleur__carte__evenement__background ;
         a{
             color: $couleur__carte__evenement ;
-   
+            
         }
     &:hover{
+        transform: scale(1.2);
+        transition: all 1s ease-in-out;
+        z-index: 1;
         background-color: $couleur__carte__evenement__background--hover ;
         a{
             color: $couleur__carte__evenement--hover ;
+            
         }
     }    
     }
