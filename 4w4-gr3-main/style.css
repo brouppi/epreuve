@@ -3,7 +3,7 @@
 theme name: TP2 Gabriel Richer
 Author: Gabriel Richer
 Author URI: https://github.com/brouppi
-Description: Ce thème servira de base de développement pour l'ensemble du cours 4W4. Chacune des étapes de développement se retrouvera sur gitHub à l'adresse: https://github.com/brouppi/tp2
+Description: Ce thème servira de base de développement pour l'ensemble du cours 4W4. Chacune des étapes de développement se retrouvera sur gitHub à l'adresse: https://github.com/brouppi/epreuve
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
@@ -790,6 +790,22 @@ COMPOSANTES
 
 .menu-accueil-container .menu .accueil__etudiant .menu-item-icone, .menu-evenement-container .menu .accueil__etudiant .menu-item-icone, .menu-atelier-container .menu .accueil__etudiant .menu-item-icone {
   background-image: url("https://s2.svgbox.net/octicons.svg?ic=bug-bold");
+}
+
+.menu-accueil-container .menu-item-166 .menu-item-icone, .menu-evenement-container .menu-item-166 .menu-item-icone, .menu-atelier-container .menu-item-166 .menu-item-icone {
+  background-image: url("https://s2.svgbox.net/files.svg?ic=git");
+}
+
+.menu-accueil-container .menu-item-156 .menu-item-icone, .menu-evenement-container .menu-item-156 .menu-item-icone, .menu-atelier-container .menu-item-156 .menu-item-icone {
+  background-image: url("https://s2.svgbox.net/files.svg?ic=reactjs");
+}
+
+.menu-accueil-container .menu-item-165 .menu-item-icone, .menu-evenement-container .menu-item-165 .menu-item-icone, .menu-atelier-container .menu-item-165 .menu-item-icone {
+  background-image: url("https://s2.svgbox.net/files.svg?ic=css");
+}
+
+.menu-accueil-container .menu-item-167 .menu-item-icone, .menu-evenement-container .menu-item-167 .menu-item-icone, .menu-atelier-container .menu-item-167 .menu-item-icone {
+  background-image: url("https://s2.svgbox.net/files.svg?ic=html");
 }
 
 .menu-accueil-container .menu .menu-item, .menu-evenement-container .menu .menu-item, .menu-atelier-container .menu .menu-item {

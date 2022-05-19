@@ -15,6 +15,18 @@
         .accueil__etudiant .menu-item-icone{
             background-image: url('https://s2.svgbox.net/octicons.svg?ic=bug-bold');
         }
+        &-item-166 .menu-item-icone{
+            background-image: url('https://s2.svgbox.net/files.svg?ic=git');
+        }
+        &-item-156 .menu-item-icone{
+            background-image: url('https://s2.svgbox.net/files.svg?ic=reactjs');
+        }
+        &-item-165 .menu-item-icone{
+            background-image: url('https://s2.svgbox.net/files.svg?ic=css');
+        }
+        &-item-167 .menu-item-icone{
+            background-image: url('https://s2.svgbox.net/files.svg?ic=html');
+        }
 
         .menu-item { //li
             width : 30%;
